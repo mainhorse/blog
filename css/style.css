@@ -1,3 +1,8 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
 .header{
     width: 100vw;
     height: 15vh;
@@ -5,31 +10,37 @@
 }
 
 .main{
-    width: 100vw;
-    height : 60vh;
+    width: 99vw;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+
 }
 
 .introduction_blog_div{
     width: 90vw;
-    height: 60vh;
     background-color: rgb(219, 219, 222);
     margin: 0 5VW;
     border-radius : 12px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
 
 }
 
 .introduction_blog_section{
-    width : 100%;
-    height : 90%;
+    width : 98%;
+    height : 80vh;
     background-color: rgba(255, 255, 255, 0.8);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 12px;
 }
 
 .introduction_blog_section article{
@@ -40,7 +51,7 @@
 
 .img_introduction_aside{
     width : 40%;
-    height : 80%;
+    height : 60%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -48,4 +59,5 @@
     width: 100%;
     height: 100%;
     border-radius: 12px;
+    align-self: center;
 }

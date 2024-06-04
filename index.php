@@ -52,16 +52,48 @@
             </div>
             </nav>
         </header>
-        <main>
+        <main class="main">
             <div class="introduction_blog_div">
                 <section class="introduction_blog_section">
                     <article>
-                        <p> Claves publicas y privadas</p>
+                        <h3> Claves publicas y privadas </h3>
+                        <p style="font-size: 1.2vw ; text-align:justify ">
+                        Cuando hablamos de encriptación, pensamos en modificar texto de tal manera que sea ilegible, ya que si este es interceptado en el canal
+                        de comunicación será inútil para el atacante que lo intercepta. Esta afirmación, nos dice que el canal de comunicación no es seguro para 
+                        transmitir información y nace la necesidad de poder enviar información protegida con el fin que solo el destinatario pueda usar la. Para 
+                        esto se usan el método de clave pública, la cual, con un proceso matemático de logaritmos, potencias, números primos, enteros y demás 
+                        cifran el mensaje a enviar. Aunque existen varios métodos de encriptación se ve la relación que existe entre la cantidad de bits de la
+                        llave publica vs la complejidad del algoritmo, donde deben ser números primos mayores a 2048 bits en algunos casos o el algoritmo debe
+                        crecer en su complejidad y con esto asegurar ciertas condiciones, como lo es algoritmo no regresivo. Cuando se tiene la información encriptada
+                        con la llave publica, se ve la necesidad de recuperar la información del mensaje y aparece la definición de inverso matemático que sencillamente
+                        es encontrar el numero equivalente que al multiplicar nuestro numero nos de 1. Esta es la mejor definición de nuestra clave privada, la cual tiene
+                        la relación con nuestra llave publica al entender que esta es su inversa, con la cual se desencriptara la información enviada.
+                        </p>
                     </article>
                     <aside class="img_introduction_aside">
                         <img src="img/keys.png" alt="llaves">
                     </aside>
                 </section>
+                <section class="introduction_blog_section" style="margin-top: 5vh">
+                    <aside class="img_introduction_aside">
+                        <img src="img/digitalFirm.png" alt="llaves">
+                    </aside>
+                    <article>
+                        <h3> Firma Digital</h3>
+                        <p style="font-size: 1.2vw ; text-align:justify ">
+                        No solo debemos encriptar la información, ya que en el caso anterior vimos que se puede modificar aplicando métodos matemático y algoritmos que
+                        hacen que el texto sea ilegible, debemos buscar la forma de asegurar que el receptor tenga la seguridad de que el emisor correcto le envió la
+                        información. Como podríamos validar la información que esperamos sea de la persona de la cual necesitamos la información, o como podemos validar
+                        que la información esta intacta y es integra para ser usada. Podríamos imprimir una marca característica que nos ayudara a identificar los 
+                        documentos, tanto que sean seguros en su contenido como su remitente. Para este caso se usan las firmas digitales, estas son firmas que usan las 
+                        personas para autenticar los documentos que envían. Los usuarios poseen llaves publicas con las cuales crean las firmas digitales, estas no solo 
+                        ayudan a identificar el contenido del documento, sino además identifica cual persona de la organización a enviado este documento. Se usa la llave
+                        privada para verificar la autenticidad de esta firma. En este caso no se cifra la información, solo se busca la forma de garantizar la
+                        autenticidad de estos documentos.
+                        </p>
+                    </article>
+                </section>
+                
             </div>
         </main>
         <footer>
