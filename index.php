@@ -81,49 +81,80 @@
                     <article>
                         <h3> Firma Digital</h3>
                         <p style="font-size: 1.2vw ; text-align:justify ">
-                        No solo debemos encriptar la información, ya que en el caso anterior vimos que se puede modificar aplicando métodos matemático y algoritmos que
-                        hacen que el texto sea ilegible, debemos buscar la forma de asegurar que el receptor tenga la seguridad de que el emisor correcto le envió la
-                        información. Como podríamos validar la información que esperamos sea de la persona de la cual necesitamos la información, o como podemos validar
-                        que la información esta intacta y es integra para ser usada. Podríamos imprimir una marca característica que nos ayudara a identificar los 
-                        documentos, tanto que sean seguros en su contenido como su remitente. Para este caso se usan las firmas digitales, estas son firmas que usan las 
-                        personas para autenticar los documentos que envían. Los usuarios poseen llaves publicas con las cuales crean las firmas digitales, estas no solo 
-                        ayudan a identificar el contenido del documento, sino además identifica cual persona de la organización a enviado este documento. Se usa la llave
-                        privada para verificar la autenticidad de esta firma. En este caso no se cifra la información, solo se busca la forma de garantizar la
-                        autenticidad de estos documentos.
+                            No solo debemos encriptar la información, ya que en el caso anterior vimos que se puede modificar aplicando métodos matemático y algoritmos que
+                            hacen que el texto sea ilegible, debemos buscar la forma de asegurar que el receptor tenga la seguridad de que el emisor correcto le envió la
+                            información. Como podríamos validar la información que esperamos sea de la persona de la cual necesitamos la información, o como podemos validar
+                            que la información esta intacta y es integra para ser usada. Podríamos imprimir una marca característica que nos ayudara a identificar los 
+                            documentos, tanto que sean seguros en su contenido como su remitente. Para este caso se usan las firmas digitales, estas son firmas que usan las 
+                            personas para autenticar los documentos que envían. Los usuarios poseen llaves publicas con las cuales crean las firmas digitales, estas no solo 
+                            ayudan a identificar el contenido del documento, sino además identifica cual persona de la organización a enviado este documento. Se usa la llave
+                            privada para verificar la autenticidad de esta firma. En este caso no se cifra la información, solo se busca la forma de garantizar la
+                            autenticidad de estos documentos.
                         </p>
                     </article>
                 </section>
-                <section class="introduction_blog_section" style="margin-top: 5vh; width : 98%; height :140vh">
+                <section class="introduction_blog_section" style="margin-top: 5vh; width : 98%; height :240vh">
                     <article style="width :  90% ;  height : 100%">
                         </br>
                         <h3> Criptosistema de llave pública </h3>
                         <p style="font-size: 1.2vw ; text-align:justify ">
-                        Conocido también como sistema asimétrico, es un sistema de encriptación que usa dos llaves una para encriptar (llave publica) y otra para desencriptar
-                        (llave privada). Se aplica un sistema de funciones matemáticos los cuales son fáciles de solucionar en la parte del encriptado, pero difícil de solucionar
-                        en la parte del desencriptado lo cual hace necesario tener la llave privada para poder obtener el mensaje original. En este sistema cada usuario posee una
-                        llave publica y una privada, donde se debe proteger la llave privada y la llave publica puede ser usada por las personas que interactúan en el sistema, 
-                        estas dos llaves se crean de manera simultánea. La importancia de este sistema radica en: cifrar la información, asegurar la integridad de los datos
-                        transmitidos y garantizar la autenticidad del emisor. Según lo que se desee hacer se pueden tener las siguientes combinaciones:
+                            Conocido también como sistema asimétrico, es un sistema de encriptación que usa dos llaves una para encriptar (llave publica) y otra para desencriptar
+                            (llave privada). Se aplica un sistema de funciones matemáticos los cuales son fáciles de solucionar en la parte del encriptado, pero difícil de solucionar
+                            en la parte del desencriptado lo cual hace necesario tener la llave privada para poder obtener el mensaje original. En este sistema cada usuario posee una
+                            llave publica y una privada, donde se debe proteger la llave privada y la llave publica puede ser usada por las personas que interactúan en el sistema, 
+                            estas dos llaves se crean de manera simultánea. La importancia de este sistema radica en: cifrar la información, asegurar la integridad de los datos
+                            transmitidos y garantizar la autenticidad del emisor. Según lo que se desee hacer se pueden tener las siguientes combinaciones:
                         </p></br>
                         <span><strong> Mensaje + clave pública = Mensaje cifrado </strong></span></br>
                         <span><strong> Mensaje encriptado + clave privada = Mensaje descifrado </strong></span></br>
                         <span><strong> Mensaje + clave privada = Mensaje firmado </strong></span></br>
                         <span><strong> Mensaje firmado + clave pública = Autenticación</strong></span></br></br>
                         <p>
-                        Este sistema debe proporciona las propiedades de autenticidad, integridad y no repudio. Con lo cual nuestro sistema debe garantizar si se conoce el texto cifrado, 
-                        que no se pueda obtener el mensaje original ni la obtención de la llave privada de esta. Si se tuviera el texto cifrado y texto en claro, debe ser más difícil 
-                        obtener la llave privada que el texto en claro y por último solo debe existir una llave privada capaz de desencriptar un mensaje encriptado con una llave pública. 
+                            Este sistema debe proporciona las propiedades de autenticidad, integridad y no repudio. Con lo cual nuestro sistema debe garantizar si se conoce el texto cifrado, 
+                            que no se pueda obtener el mensaje original ni la obtención de la llave privada de esta. Si se tuviera el texto cifrado y texto en claro, debe ser más difícil 
+                            obtener la llave privada que el texto en claro y por último solo debe existir una llave privada capaz de desencriptar un mensaje encriptado con una llave pública. 
                         </p>
                         <h3>Como funciona y cuales son sus algoritmos </h3>
                         <p>
-                        Este sistema debe proporciona las propiedades de autenticidad, integridad y no repudio. Con lo cual nuestro sistema debe garantizar si se conoce el texto cifrado,
-                        que no se pueda obtener el mensaje original ni la obtención de la llave privada de esta. Si se tuviera el texto cifrado y texto en claro, debe ser más difícil 
-                        obtener la llave privada que el texto en claro y por último solo debe existir una llave privada capaz de desencriptar un mensaje encriptado con una llave pública.
-                           <h5> 1.	Protocolo de acuerdo de clave de Diffie-Hellman.</h5>
+                            Este sistema debe proporciona las propiedades de autenticidad, integridad y no repudio. Con lo cual nuestro sistema debe garantizar si se conoce el texto cifrado,
+                            que no se pueda obtener el mensaje original ni la obtención de la llave privada de esta. Si se tuviera el texto cifrado y texto en claro, debe ser más difícil 
+                            obtener la llave privada que el texto en claro y por último solo debe existir una llave privada capaz de desencriptar un mensaje encriptado con una llave pública.
+                        </p>    
+                        <h5> 1.	Protocolo de acuerdo de clave de Diffie-Hellman.</h5>
+                            <p>es un método criptográfico que permite a dos partes establecer una clave secreta compartida a través de un canal inseguro. Este protocolo se basa
+                                en la dificultad matemática del problema del logaritmo discreto en ciertos grupos matemáticos, lo que hace que sea seguro contra la mayoría de los
+                                métodos de criptoanálisis conocidos
+                            </p>
+                            <h6> Ventajas </h6>
+                                <p>Permite establecer una clave secreta, sin necesidad de una trasnmision previa. Y a la vez proporciona seguridad segun la complejidad del logaritmo discreto.</p>
+                            <h6> Desventajas </h6>
+                                <p> No proporsiona autenticación por si solo y depende de metodos adicionales para esto.</p>
                            <h5>2.   Criptosistema RSA</h5>
+                            <p>
+                                Es un metodo muy usuado para la encriptación y firma digital. Fue desarrollada en 1977 por Ron Rivest, Adi Shamir y Leonard Adleman. de ahi viene su nombre, por las 
+                                iniciales de sus creadores. Este se basa en la dificultad matematica de la factorización de grandes numeros compuestos, lo que lo hace seguro contra varios sistemas
+                                de cripto analisis conocido. 
+                            </p>
+                            <h6> Ventajas </h6>
+                                <p> Es segura, versatil y muy popular.</p>
+                            <h6> Desventajas </h6>
+                                <p> Es lenta, necesita claves muy largas y es compleja de usar.</p>
                            <h5>3.   Criptosistema del Gamal</h5>
-                           <h5>4.   Criptosistema de curvas elípticas</h5>
-                        </p>
+                            <p> Es un metodo de encriptación basado en el problema del logaritmo discreto en grupos cíclicos. Fue desarrollado por Diffie-Hellman en 1985, este ofrece protección tanto 
+                                en encriptación como en firma digital.
+                            </p>
+                            <h6> Ventajas</h6>
+                            <p> Es seguro y flexible</p>
+                            <h6> Desventaja </h6>
+                            <p>El tamaño del cliptograma es el doble que el tamaño del mensaje y el rendimiento es menor al tener que realizar operaciones matematicas complejas.</p>
+                            <h5>4.   Criptosistema de curvas elípticas</h5>
+                            <p> El criptosistema de curvas elípticas (ECC, por sus siglas en inglés) es una técnica de criptografía asimétrica basada en las propiedades algebraicas de las curvas elípticas 
+                                sobre cuerpos finitos. ECC ofrece un alto nivel de seguridad con claves relativamente pequeñas, lo que la hace eficiente en términos de computación y uso de recursos.
+                            </p>
+                           <h6> Ventajas </h6>
+                            <p>Alta seguridad con claves mas pequeñas, eficiencia y velocidad.</p>
+                           <h6> Desventajas</h6>
+                            <p> Complejidad matematica e implementación cuidadosa para evitar vulnerabilidades</p>
                     </article>
                 </section>
                 <section class="introduction_blog_section" style="margin-top: 5vh">
@@ -200,7 +231,29 @@
             </div>
         </main>
         <footer>
-            <!-- place footer here -->
+            
+
+<footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline">TuBlog™</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Acerca</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Politicas</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Licensia</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Contactanos</a>
+        </li>
+    </ul>
+    </div>
+</footer>
+
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
