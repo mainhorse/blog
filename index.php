@@ -122,6 +122,35 @@
                         </p>
                     </article>
                 </section>
+                <section class="introduction_blog_section" style="margin-top: 5vh">
+                    <aside class="img_introduction_aside">
+                        <img src="img/malware.png" alt="llaves">
+                    </aside>
+                    <article>
+                        <h3> Casos Practicos</h3>
+                        <p style="font-size: 1.2vw ; text-align:justify ">
+                            <h6>Esquema de cifrado hibrido</h6>
+                            <p>
+                                Cuando nos conectamos a una página segura en la red de internet, estas son las que tienen el indicativo de https://, con el fin de que la comunicación este cifrada 
+                                de extremo a extremo asegurando el manejo de la información de una forma segura.
+                            </p>
+                        </p>
+                        <p>
+                            <h6> Funcione resumen </h6>
+                            <p>
+                                En el almacenamiento de información en un dispositivo (computador, usb, correos electrónicos o en un almacenamiento o registro de custodias. Etc). Se pueden almacenar 
+                                los registros y comparar los con los archivos en específicos, con el fin de comparar si hubo o no un cambio en la estructura de estos. Esto con el fin de saber si son o
+                                no seguros. 
+                            </p>
+                            <h6>Malware</h6>
+                            <p>
+                                Cuando tenemos un antivirus, este intenta detectar la presencia de software dañino en un dispositivo calculando el resumen de los ficheros que son vulnerables en el dispositivo. 
+                                Cada uno de estos es comparado con la información que se tiene en la base de datos y que es actualizada por la empresa desarrolladora. Si se encuentran relacionadas, se da una 
+                                alarma de archivo dañino y el programa informa al usuario. Se recomienda tener un antivirus actualizado en cada momento.
+                            </p>
+                        </p>
+                    </article>
+                </section>
             </div>
         </main>
         <footer>
