@@ -93,8 +93,9 @@
                         </p>
                     </article>
                 </section>
-                <section class="introduction_blog_section" style="margin-top: 5vh; width : 98%; height :100vh">
+                <section class="introduction_blog_section" style="margin-top: 5vh; width : 98%; height :140vh">
                     <article style="width :  90% ;  height : 100%">
+                        </br>
                         <h3> Criptosistema de llave pública </h3>
                         <p style="font-size: 1.2vw ; text-align:justify ">
                         Conocido también como sistema asimétrico, es un sistema de encriptación que usa dos llaves una para encriptar (llave publica) y otra para desencriptar
@@ -104,10 +105,10 @@
                         estas dos llaves se crean de manera simultánea. La importancia de este sistema radica en: cifrar la información, asegurar la integridad de los datos
                         transmitidos y garantizar la autenticidad del emisor. Según lo que se desee hacer se pueden tener las siguientes combinaciones:
                         </p></br>
-                        <span><strong> •	Mensaje + clave pública = Mensaje cifrado </strong></span></br>
-                        <span><strong> •	Mensaje encriptado + clave privada = Mensaje descifrado </strong></span></br>
-                        <span><strong>•	Mensaje + clave privada = Mensaje firmado </strong></span></br>
-                        <span><strong> •	Mensaje firmado + clave pública = Autenticación</strong></span></br></br>
+                        <span><strong> Mensaje + clave pública = Mensaje cifrado </strong></span></br>
+                        <span><strong> Mensaje encriptado + clave privada = Mensaje descifrado </strong></span></br>
+                        <span><strong> Mensaje + clave privada = Mensaje firmado </strong></span></br>
+                        <span><strong> Mensaje firmado + clave pública = Autenticación</strong></span></br></br>
                         <p>
                         Este sistema debe proporciona las propiedades de autenticidad, integridad y no repudio. Con lo cual nuestro sistema debe garantizar si se conoce el texto cifrado, 
                         que no se pueda obtener el mensaje original ni la obtención de la llave privada de esta. Si se tuviera el texto cifrado y texto en claro, debe ser más difícil 
@@ -118,7 +119,10 @@
                         Este sistema debe proporciona las propiedades de autenticidad, integridad y no repudio. Con lo cual nuestro sistema debe garantizar si se conoce el texto cifrado,
                         que no se pueda obtener el mensaje original ni la obtención de la llave privada de esta. Si se tuviera el texto cifrado y texto en claro, debe ser más difícil 
                         obtener la llave privada que el texto en claro y por último solo debe existir una llave privada capaz de desencriptar un mensaje encriptado con una llave pública.
-                           <h4> 1.	Protocolo de acuerdo de clave de Diffie-Hellman.</h4>
+                           <h5> 1.	Protocolo de acuerdo de clave de Diffie-Hellman.</h5>
+                           <h5>2.   Criptosistema RSA</h5>
+                           <h5>3.   Criptosistema del Gamal</h5>
+                           <h5>4.   Criptosistema de curvas elípticas</h5>
                         </p>
                     </article>
                 </section>
@@ -176,6 +180,21 @@
                                 alarma de archivo dañino y el programa informa al usuario. Se recomienda tener un antivirus actualizado en cada momento.
                             </p>
                         </p>
+                    </article>
+                </section>
+                <section class="introduction_blog_section" style="margin-top: 5vh; height : 100vh">
+                    <article>
+                        <h3> Observaciones y recomendaciones </h3>
+                        <p>•	Existen varios métodos a la hora de proteger nuestra información donde se puede optar por algoritmos en bloque o que usan algoritmos matemáticos para cifrar el mensaje a enviar.</p>
+                        <p>•	No solo se debe cifrar el mensaje, se debe asegurar que el destinatario sea la persona correcta que envía la información.</p>
+                        <p>•	Tanto la encriptación asimétrica, como la simétrica buscan proteger la información. La simétrica usa la misma llave para encriptar y desencriptar. Mientras la asimétrica usa dos 
+                        llaves diferentes, la pública para encriptar el mensaje y la privada para devolver la información a un estado legible. </p>
+                        <p>•	Se debe analizar cuales son los recursos que se poseen en nuestro sistema, ya que el simétrico usa menos recursos, pero es más fácil de romper, mientras el asimétrico es mas robusto 
+                        al usar mas recursos y se demora mas en romper su algoritmo.</p>
+                        <p>•	Cuando implementamos un sistema asíncrono podemos tener unas llaves de mayor longitud con lo cual podemos asegurar una mayor protección, u optar por el sistema elíptica que no depende
+                        del tamaño de su llave sino de la ecuación cuadrática de la elipse.</p>
+                        <p> •	Ya sea en el método asimétrico o simétrico, la llave que se use debe ser protegida por el usuario con el fin de mantener la información bien protegida.</p>
+                        <p> •	Los métodos actuales buscan que la llave de encriptación sea difícil de decodificar, asegurando la información.</p>
                     </article>
                 </section>
             </div>
