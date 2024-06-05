@@ -123,6 +123,33 @@
                     </article>
                 </section>
                 <section class="introduction_blog_section" style="margin-top: 5vh">
+                    <article style="display : flex; flex-direction : row; align-items : center; justify-content :space-between; width :100%;" >
+                        <aside style="width : 80%; height : 90%; margin-left: 5%">
+                            <h3 style="align-self:flex-start" >Asimetricos</h3>
+                            <h6>Ventajas</h6>
+                                <p> 🔐 Distribución de claves: Facilita la distribución segura de claves.</p>
+                                <p>✅ Autenticación: Permite verificar la autenticidad de los mensajes.</p>
+                                <p> 🔒 Confidencialidad: Protege la comunicación incluso si la clave pública es conocida.</p>
+                            <h6> Desventajas </h6>    
+                                <p>🐢 Lentitud: Más lenta en comparación con la encriptación simétrica.</p>
+                                <p>🤹 Complejidad: Más compleja de implementar y mantener.</p>
+                                <p>📏 Tamaño de claves: Requiere claves más grandes para un nivel de seguridad equivalente al de la encriptación simétrica.</p>
+                        </aside>
+                        <aside style="width : 80%; height : 90%">
+                            <h3> Simetricos</h3>
+                            <h6> Ventajas </h6>
+                                <p>⏩ Rapidez</p>
+                                <p>💻 Menor uso de recursos</p>
+                                <p>⚙️ Simplicidad</p>
+                            <h6> Desventajas </h6>
+                                <p> 🔑 Distribución de claves</p>
+                                <p>📈 Escalabilidad</p>
+                                <p>🚨 Seguridad comprometida</p>
+                        </aside>
+                    </article>
+
+                </section>
+                <section class="introduction_blog_section" style="margin-top: 5vh">
                     <aside class="img_introduction_aside">
                         <img src="img/malware.png" alt="llaves">
                     </aside>
