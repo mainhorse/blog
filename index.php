@@ -93,7 +93,35 @@
                         </p>
                     </article>
                 </section>
-                
+                <section class="introduction_blog_section" style="margin-top: 5vh; width : 98%; height :100vh">
+                    <article style="width :  90% ;  height : 100%">
+                        <h3> Criptosistema de llave pública </h3>
+                        <p style="font-size: 1.2vw ; text-align:justify ">
+                        Conocido también como sistema asimétrico, es un sistema de encriptación que usa dos llaves una para encriptar (llave publica) y otra para desencriptar
+                        (llave privada). Se aplica un sistema de funciones matemáticos los cuales son fáciles de solucionar en la parte del encriptado, pero difícil de solucionar
+                        en la parte del desencriptado lo cual hace necesario tener la llave privada para poder obtener el mensaje original. En este sistema cada usuario posee una
+                        llave publica y una privada, donde se debe proteger la llave privada y la llave publica puede ser usada por las personas que interactúan en el sistema, 
+                        estas dos llaves se crean de manera simultánea. La importancia de este sistema radica en: cifrar la información, asegurar la integridad de los datos
+                        transmitidos y garantizar la autenticidad del emisor. Según lo que se desee hacer se pueden tener las siguientes combinaciones:
+                        </p></br>
+                        <span><strong> •	Mensaje + clave pública = Mensaje cifrado </strong></span></br>
+                        <span><strong> •	Mensaje encriptado + clave privada = Mensaje descifrado </strong></span></br>
+                        <span><strong>•	Mensaje + clave privada = Mensaje firmado </strong></span></br>
+                        <span><strong> •	Mensaje firmado + clave pública = Autenticación</strong></span></br></br>
+                        <p>
+                        Este sistema debe proporciona las propiedades de autenticidad, integridad y no repudio. Con lo cual nuestro sistema debe garantizar si se conoce el texto cifrado, 
+                        que no se pueda obtener el mensaje original ni la obtención de la llave privada de esta. Si se tuviera el texto cifrado y texto en claro, debe ser más difícil 
+                        obtener la llave privada que el texto en claro y por último solo debe existir una llave privada capaz de desencriptar un mensaje encriptado con una llave pública. 
+                        </p>
+                        <h3>Como funciona y cuales son sus algoritmos </h3>
+                        <p>
+                        Este sistema debe proporciona las propiedades de autenticidad, integridad y no repudio. Con lo cual nuestro sistema debe garantizar si se conoce el texto cifrado,
+                        que no se pueda obtener el mensaje original ni la obtención de la llave privada de esta. Si se tuviera el texto cifrado y texto en claro, debe ser más difícil 
+                        obtener la llave privada que el texto en claro y por último solo debe existir una llave privada capaz de desencriptar un mensaje encriptado con una llave pública.
+                           <h4> 1.	Protocolo de acuerdo de clave de Diffie-Hellman.</h4>
+                        </p>
+                    </article>
+                </section>
             </div>
         </main>
         <footer>
